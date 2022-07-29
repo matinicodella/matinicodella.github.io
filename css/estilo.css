@@ -1,0 +1,125 @@
+html,
+*{
+	padding: 0;
+	margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: black;
+}
+nav{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;  
+}
+li {
+  list-style: none;
+   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.a-disciplinas{
+  text-decoration: underline;
+}
+.titulo{
+  padding-left: 20px;
+  color: #EC0404;
+  font-size: 38px;
+  margin-top: 50 px;
+} 
+.sub{
+  padding-left: 40px;
+  font-size:20px ;
+  font-weight: bold;
+  color: whitesmoke; 
+}
+p{
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+}
+.boxeador, .cross, .fisico{
+  font-size: 18px;
+  font-weight:bold;
+  color: #EC0404;
+  font-family: 'Alegreya Sans', sans-serif;
+  padding-left: 0px;
+}
+.opciones-formulario, .paginas-web{
+  font-size: 16px;
+  color: whitesmoke;
+}
+.cop{
+  color: #E52222;
+  font-size: 11px;
+}
+.actividades, .productos, .nosotros{
+  color: #D10202;
+  padding-left: 20px;
+}
+.sub-actividades, .sub-productos, .sub-nosotros, .sub-contacto{
+  font-size: 32px;
+  color: ghostwhite;
+}
+.titulo-index{
+  font-size: 21px;
+  color: whitesmoke;
+}
+.sub-paratyc{
+  font-size:18px ;
+  font-weight: lighter;
+  color: whitesmoke; 
+}
+a:hover{
+  color: #EC0404;
+}
+.titulo-deportistas{
+  margin-top: 15px;
+  color: white;
+  font-size:22px ;
+  font-weight: bold;
+}
+/*.menu li{
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+.menu{
+  text-align: right;
+  margin-right: 20px;
+}*/
+
+.menu {
+  display: flex;
+  column-gap: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.logo{
+  width: 300;
+  flex: 2;
+}
+/*.flex_redes{
+  display: inline-flex;
+  column-gap: 600px;
+  padding-top: 30px;
+  justify-content: space-between;
+} */
+.grilla{
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+}
+.flex_redes{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+}
+
+
+  
+
