@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width" />
 	<title>RamboGym</title>
 	<!-- Link de CSS -->
 	<link rel="stylesheet" href="css/estilo.css">	
@@ -11,11 +12,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-	   	<ul class="menu">
-	   		<li class="logo">
-	   			<img src="imagenes/logo.jpg" width="300" />
-	   		</li>
+    <nav class=" menu contenedor ">
+    	<div class="logo">
+	   	<img src="imagenes/logo.jpg" width="300" />
+        </div>
+	   	<ul class="navegable">
 	    	<li> 
 	    	 	<a class="titulo-index" href="index.html">Inicio</a>	
 	    	</li>
@@ -33,33 +34,37 @@
 	        </li>
 	    </ul>
     </nav>  
-    <header>
+    <header class="contenedor">
     <h1 class="titulo">Inicio</h1>
 	<h2 class="sub">Animate y se parte de la familia Rambo Gym</h2>
 	<p class="sub">Conoce gente nueva, hace amigo y disfruta tu proceso de transformación!!!</p> 
     <p class="sub"> Estas son las <a class="a-disciplinas" href="actividades.html" >   disciplinas</a> mas concurridas en el 2022 </p>
     <p class="titulo-deportistas">Ellos son algunos de nuestros representantes en el mundo del deporte, que se formaron en nuestras instalaciones y son un gran orgullo para nosotros.</p>
     </header>
-    <div class="grilla">
+    <div class="grilla contenedor">
+    <article class="grid1">
+    	<img src="imagenes/brian.jpg" alt="brian castaño" title="brian castaño boxeador" width="300"/>
+    </article>
     <article>
-    	<img src="imagenes/brian.jpg" alt="brian castaño" title="brian castaño boxeador" width="400"/>     	
-    	<p class="boxeador"> Brian Carlos Castaño es un boxeador de nuestra cantera el cual se formo con nosotros desde los 14 años, actualmente campeón regular de la organización Mundial de Boxeo en la categoría superwélter. </p>
+    	<p class="descripcion_foto grid2"> Brian Carlos Castaño es un boxeador de nuestra cantera el cual se formo con nosotros desde los 14 años, actualmente campeón regular de la organización Mundial de Boxeo en la categoría superwélter. </p>
    	</article>
-   	<article>
-   		<img src="imagenes/mel.jpg" alt="melina rodriguez" title="melina rodriguez crossfiter" width="400" />
-   		<p class="cross">Melina Rodriguez una gran competidora de Crossfit que empezo con nosotros a la edad de 16 años y hoy es una gran exponente de argentina</p>
+   	<article class="grid3">
+   		<img src="imagenes/mel.jpg" alt="melina rodriguez" title="melina rodriguez crossfiter" width="300" />
    	</article>
-   	<article>
-   		<img src="imagenes/ovied.jpg" alt="brian oviedo" title="brian oviedo fisicoculturista" width="400" height="224" />
-   		<p class="fisico">Brian Oviedo otra joyita mas de la familia Rambo Gym, quien en el año 2021 fue campeon en la categoria de culturismo clasico </p>
+   	<article class="grid4">	
+   		<p class="descripcion_foto">Melina Rodriguez una gran competidora de Crossfit que empezo con nosotros a la edad de 16 años y hoy es una gran exponente de argentina</p>
+   	</article>
+   	<article class="grid5">
+   		<img src="imagenes/ovied.jpg" alt="brian oviedo" title="brian oviedo fisicoculturista" width="300" height="166" />
+   	</article>
+   	<article>	
+   		<p class="descripcion_foto grid6">Brian Oviedo otra joyita mas de la familia Rambo Gym, quien en el año 2021 fue campeon en la categoria de culturismo clasico </p>
+   	</article>
    	</div>
    	          
    	</article>
    	<footer>
-    	<ul class="flex_redes">
-    		<li>
-    			<img src="imagenes/instagram.jpg" width="20px">
-    		</li>
+    	<ul class="flex_redes contenedor">
 	    	<li>
 	    		<a class= "paginas-web" href="https://www.instagram.com/" target="_blank">Instagram</a>
 	    	</li>
@@ -70,7 +75,7 @@
 				<a class= "paginas-web" href="https://www.tiktok.com/" target="_blank">TikTok</a>
 			</li>
 		</ul> 
-    <div>
+    <div class="contenedor">
 	<span class="cop">Copyright Matias Nicodella</span>
     </div>
 	</footer>

@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width" />
 	<title>RamboGym</title>
 	<!-- Link de CSS -->
 	<link rel="stylesheet" href="css/estilo.css">	
@@ -11,11 +12,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav>
-	   	<ul class="menu">
-	   		<li class="logo">
-	   			<img src="imagenes/logo.jpg" width="300" />
-	   		</li>
+	<nav class=" menu contenedor ">
+    	<div class="logo">
+	   	<img src="imagenes/logo.jpg" width="300" />
+        </div>
+	   	<ul class="navegable">
 	    	<li> 
 	    	 	<a class="titulo-index" href="index.html">Inicio</a>	
 	    	</li>
@@ -32,7 +33,8 @@
 	          	<a class="titulo-index" href="contacto.html">Contacto</a>
 	        </li>
 	    </ul>
-    </nav>  
+    </nav>
+    <header class="contenedor">  
     <h1 class="titulo">Actividades</h1>
     <p>Tenemos mas de 10 tipos de actividades, que podes aprovechar en este mes, si comenzas con un amigo/a tiene una promoción de 2x1 si realizan lo mismo, no la desaprovechen!!</p>               
     <h2 class="sub-actividades">Top 5 de las Discplinas mas concurridas en 2022</h2>
@@ -53,8 +55,9 @@
 		<div class="actividades"> Spinning </div> <p>Es un ejercicio aeróbico y cardiovascular que se realiza sobre una bicicleta estática en el que se trabaja el tren inferior: las piernas y los glúteos</p>
 		</li>
 	</ol>
+	</header>
            
-         
+     <div class="contenedor">    
     <h2 class="sub-actividades">Rambo Actividades</h2> 
     <ul>
 		<li>
@@ -94,7 +97,8 @@
 	    Zumba
 	    </li>
     </ul>
-    <footer>
+	</div>
+    <footer class="contenedor">
     	<ul class="flex_redes">
 		    <li>
 		    	<a class= "paginas-web" href="https://www.instagram.com/" target="_blank">Instagram</a>
@@ -107,7 +111,7 @@
 			</li>
 		</ul> 
 
-		<span class="cop">Copyright Matias Nicodella</span>
+		<span class="contenedor" class="cop">Copyright Matias Nicodella</span>
 	</footer>
 
     	 

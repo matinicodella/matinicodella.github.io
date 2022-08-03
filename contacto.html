@@ -2,6 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width" />
 	<title>RamboGym</title>
 	<!-- Link de CSS -->
 	<link rel="stylesheet" href="css/estilo.css">	
@@ -11,11 +12,11 @@
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-	<nav>
-	   	<ul class="menu">
-	   		<li class="logo">
-	   			<img src="imagenes/logo.jpg" width="300" />
-	   		</li>
+	<nav class=" menu contenedor ">
+    	<div class="logo">
+	   	<img src="imagenes/logo.jpg" width="300" />
+        </div>
+	   	<ul class="navegable">
 	    	<li> 
 	    	 	<a class="titulo-index" href="index.html">Inicio</a>	
 	    	</li>
@@ -32,8 +33,9 @@
 	          	<a class="titulo-index" href="contacto.html">Contacto</a>
 	        </li>
 	    </ul>
-    </nav>  
-   	<h1 class="titulo">Contacto</h1>
+    </nav>
+    <div class="contenedor">
+    <h1 class="titulo">Contacto</h1>
     <h2 class="sub-contacto">Registrate y empeza a vivir la experiencia Rambo Gym</h2>
     <form action="gracias.html" target="_blank"> 
    	<div>
@@ -48,7 +50,7 @@
 	<select class="opciones-formulario">
 		    <option>Masculino</option>
 		  	<option>Femenino</option>
-			<option>Otros</option>
+			<option>Otro</option>
 	</select>
 	</label> 
 	</div>
@@ -81,11 +83,8 @@
 	</div>
 		<input class="sub-paratyc" type="submit" />
 	</form>
-
-
-
-
-	<footer>
+    </div>
+	<footer class="contenedor">
 	<ul class="flex_redes">
 		<li>
 			<a class= "paginas-web" href="https://www.instagram.com/" target="_blank">Instagram</a>
