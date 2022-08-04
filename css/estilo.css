@@ -183,6 +183,10 @@ p{
     flex-direction: column;
   }
 }
+.cop{
+  background-image: linear-gradient(black , grey);
+}
+
 
 
    
