@@ -58,6 +58,7 @@ p{
 .cop{
   color: #E52222;
   font-size: 11px;
+  background-image: linear-gradient(black , grey);
 }
 .actividades, .productos, .nosotros{
   color: #D10202;
@@ -102,10 +103,8 @@ p{
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
     column-gap: 10px;
-
     grid-template-areas: "fotoboxeo fotocrossfit fotoculturista"
-                         "boxeo crossfit culturista"
-    
+                         "boxeo crossfit culturista" 
   }
   .grid1{
     grid-area: fotoboxeo;
@@ -135,45 +134,18 @@ p{
   max-width: 1200px;
   margin: auto;
   margin-top: 1%;
-  padding-left: 7%;
-  padding-right: 7%;
 }
 @media (max-width: 900px){
   .grilla{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
-
     grid-template-areas: "fotoboxeo boxeo"
                          "fotocrossfit crossfit"
-                         "fotoculturista culturista";
-    
-    
-  }
-  .grid1{
-    grid-area: fotoboxeo;
-  }
-  .grid2{
-    grid-area: boxeo;
-  }
-  .grid3{
-    grid-area: fotocrossfit;  
-  }
-  .grid4{
-    grid-area: crossfit;
-  }
-  .grid5{
-    grid-area: fotoculturista;
-  }
-  .grid6{
-    grid-area: culturista;
+                         "fotoculturista culturista";  
   }
   .menu {
-  display: flex;
   flex-direction: row-reverse;  
-  justify-content: space-between;
   padding: 1%; 
   }
   .logo{
@@ -182,9 +154,6 @@ p{
   .navegable{    
     flex-direction: column;
   }
-}
-.cop{
-  background-image: linear-gradient(black , grey);
 }
 
 
