@@ -17,11 +17,18 @@ li {
   font-family: 'Alegreya Sans', sans-serif;
 }
 a{
-  color: whitesmoke;
+  color: whitesmoke;  
   text-decoration: none;
+   
+  
+  transition-property: color background-color;
+  transition-timing-function: ease-in-out;
+  tranition-duration: 450ms;
+  transition-delay: 450ms;
 }
 a:hover{
   color: #EC0404;
+  background-color: lightgrey;
 }
 .a-disciplinas{
   text-decoration: underline;
@@ -145,8 +152,7 @@ p{
                          "fotoculturista culturista";  
   }
   .menu {
-  flex-direction: row-reverse;  
-  padding: 1%; 
+  flex-direction: row-reverse;   
   }
   .logo{
     margin: auto;  
