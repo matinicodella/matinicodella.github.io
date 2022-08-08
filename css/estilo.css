@@ -19,8 +19,6 @@ li {
 a{
   color: whitesmoke;  
   text-decoration: none;
-   
-  
   transition-property: color background-color;
   transition-timing-function: ease-in-out;
   tranition-duration: 450ms;
@@ -28,7 +26,7 @@ a{
 }
 a:hover{
   color: #EC0404;
-  background-color: lightgrey;
+  background-color: lightgray;
 }
 .a-disciplinas{
   text-decoration: underline;
@@ -84,7 +82,6 @@ p{
   font-weight: lighter;
   color: whitesmoke; 
 }
-
 .titulo-deportistas{
   margin-top: 15px;
   color: white;
@@ -161,7 +158,22 @@ p{
     flex-direction: column;
   }
 }
+@keyframes fondo_redes{
+  0%{
+    background-color: black;
+  }
+  100%{
+    background-color: darkblue;
 
+  }
+}
+.redes{
+  background-color: black;
+  animation-name: fondo_redes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
 
    
