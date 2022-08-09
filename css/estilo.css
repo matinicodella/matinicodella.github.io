@@ -21,7 +21,7 @@ a{
   text-decoration: none;
   transition-property: color background-color;
   transition-timing-function: ease-in-out;
-  tranition-duration: 450ms;
+  transition-duration: 450ms;
   transition-delay: 450ms;
   background-image: linear-gradient(black , grey);
 }
@@ -140,9 +140,15 @@ p{
   margin: auto;
   margin-top: 1%;
 }
+.redes{
+  background-color: black;
+  animation-name: fondo_redes;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 @media (max-width: 900px){
   .grilla{
-    display: grid;
     grid-template-columns: 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "fotoboxeo boxeo"
@@ -168,13 +174,7 @@ p{
 
   }
 }
-.redes{
-  background-color: black;
-  animation-name: fondo_redes;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
+
 
 
    
