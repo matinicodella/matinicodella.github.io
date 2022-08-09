@@ -23,6 +23,7 @@ a{
   transition-timing-function: ease-in-out;
   tranition-duration: 450ms;
   transition-delay: 450ms;
+  background-image: linear-gradient(black , grey);
 }
 a:hover{
   color: #EC0404;
