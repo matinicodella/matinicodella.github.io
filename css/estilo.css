@@ -140,13 +140,6 @@ p{
   margin: auto;
   margin-top: 1%;
 }
-.redes{
-  background-color: black;
-  animation-name: fondo_redes;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-}
 @media (max-width: 900px){
   .grilla{
     grid-template-columns: 1fr 1fr ;
@@ -163,15 +156,6 @@ p{
   }
   .navegable{    
     flex-direction: column;
-  }
-}
-@keyframes fondo_redes{
-  0%{
-    background-color: black;
-  }
-  100%{
-    background-color: darkblue;
-
   }
 }
 
