@@ -1,0 +1,336 @@
+html
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: black;
+}
+nav{
+  font-weight: bold;
+  font-size: 20px;
+  color: white;  
+}
+li {
+  list-style: none;
+   font-weight: bold;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+a{
+  color: whitesmoke;  
+  text-decoration: none;
+  transition-property: color background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 450ms;
+  transition-delay: 450ms;
+  background-image: linear-gradient(black , grey);
+
+  	&:hover{
+  	  	color: #EC0404;
+  		background-color: lightgray;
+  }
+p{
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 20px;
+  color: whitesmoke;
+}
+}
+.navegador{
+	width: 100%;
+  	max-width: 1200px;
+  	margin: auto;
+  	margin-top: 1%;
+	.menu{
+		display: flex;
+  		justify-content: space-between;
+  		align-items: center;
+  		.navegable{
+			display: flex;
+  			justify-content: flex-end;
+  			column-gap: 7%;
+  				li{
+  				display: inline-flex
+  				}
+			}
+	}	
+}
+		
+.relleno11{
+	width: 100%;
+  	max-width: 1200px;
+  	margin: auto;
+  	margin-top: 1%;
+	.titulo{
+		padding-left: 20px;
+  		color: #EC0404;
+ 		font-size: 38px;
+  		margin-top: 50 px;
+	}
+	h2.sub{
+		padding-left: 40px;
+  		font-size:20px ;
+  		font-weight: bold;
+  		color: whitesmoke; 
+	}
+	p.sub{
+		padding-left: 40px;
+  		font-size:20px ;
+ 	 	font-weight: bold;
+  		color: whitesmoke; 
+	}
+	p.sub{
+		&.a-disciplinas{
+			text-decoration: underline;
+		}
+		&.titulo-index{
+			font-size: 21px;
+			color: whitesmoke;
+		}
+	}
+	p.titulo-deportistas{
+		margin-top: 15px;
+  		color: white;
+ 		font-size:22px ;
+  		font-weight: bold;
+	}
+
+}
+.relleno12{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	
+	.grilla{
+		display: grid;
+    	grid-template-columns: 1fr 1fr 1fr;
+   	 	grid-template-rows: 1fr 1fr;
+    	row-gap: 10px;
+    	column-gap: 10px;
+    	grid-template-areas: 	"fotoboxeo fotocrossfit fotoculturista"
+                         		"boxeo crossfit culturista";
+
+			.grid1{
+				grid-area: fotoboxeo;	
+			}
+			.grid2{
+				grid-area: boxeo;
+
+				.descripcion_foto{
+					font-size: 18px;
+  					font-weight:bold;
+  					color: #EC0404;
+  					font-family: 'Alegreya Sans', sans-serif;
+  					padding-left: 0px;
+				}	
+			}
+			.grid3{
+				grid-area: fotocrossfit;
+			}
+			.grid4{
+				grid-area: crossfit;
+
+				.descripcion_foto{
+					font-size: 18px;
+  					font-weight:bold;
+  					color: #EC0404;
+  					font-family: 'Alegreya Sans', sans-serif;
+  					padding-left: 0px;					
+				}
+			}
+			.grid5{
+				grid-area: fotoculturista;
+			}
+			.grid6{
+				grid-area: culturista;
+				.descripcion_foto{
+						font-size: 18px;
+  					font-weight:bold;
+  					color: #EC0404;
+  					font-family: 'Alegreya Sans', sans-serif;
+  					padding-left: 0px;	
+  				}
+			}
+			
+	}
+
+}
+.pie{	
+		width: 100%;
+  		max-width: 1200px;
+ 		margin: auto;
+  		margin-top: 1%;
+	.flex_redes{
+		display: flex;
+  		justify-content: space-between;
+  		margin: 0;
+		
+		li{
+		font-size: 16px;
+  		color: whitesmoke;
+		}
+	}
+
+	
+	.cop{
+		color: #E52222;
+  		font-size: 11px;
+  		background-image: linear-gradient(black , grey);
+
+	}
+}
+.relleno21{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	.titulo{
+		padding-left: 20px;
+  		color: #EC0404;
+ 		font-size: 38px;
+  		margin-top: 50 px;
+	}
+	p{
+		padding-left: 40px;
+  		font-weight: bold;
+  		font-size: 20px;
+  		color: whitesmoke;	
+	}
+	.sub-actividades{
+		font-size: 32px;
+  		color: ghostwhite;
+	}
+	.actividades{
+		color: #D10202;
+  		padding-left: 20px;
+	}
+}
+.relleno22{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	.sub-actividades{
+		font-size: 32px;
+  		color: ghostwhite;
+	}
+	.actividades{
+		color: #D10202;
+  		padding-left: 20px;
+	}
+	.sub{
+		padding-left: 40px;
+  		font-size:20px ;
+  		font-weight: bold;
+  		color: whitesmoke;
+	}
+}
+.relleno31{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	.titulo{
+		padding-left: 20px;
+  		color: #EC0404;
+  		font-size: 38px;
+  		margin-top: 50 px;
+	}
+	p{
+		padding-left: 40px;
+  		font-weight: bold;
+  		font-size: 20px;
+  		color: whitesmoke;
+	}
+	.sub-productos{
+		font-size: 32px;
+  		color: ghostwhite;
+	}
+	.sub{
+		padding-left: 40px;
+  		font-size:20px ;
+  		font-weight: bold;
+  		color: whitesmoke;
+	}
+	.productos{
+		color: #D10202;
+  		padding-left: 20px;
+	}
+	.sub-paratyc{
+		font-size:18px ;
+  		font-weight: lighter;
+  		color: whitesmoke;
+	}
+}
+.relleno41{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	.titulo{
+		padding-left: 20px;
+  		color: #EC0404;
+  		font-size: 38px;
+  		margin-top: 50 px;
+	}
+	.sub-nosotros{
+		font-size: 32px;
+  		color: ghostwhite;
+	}
+	p{
+		padding-left: 40px;
+  		font-weight: bold;
+  		font-size: 20px;
+  		color: whitesmoke;
+	}
+	.nosotros{
+		color: #D10202;
+  		padding-left: 20px
+	}
+}
+.relleno51{
+	width: 100%;
+	max-width: 1200px;
+  	margin: auto;
+	margin-top: 1%;
+	.titulo{
+		padding-left: 20px;
+  		color: #EC0404;
+  		font-size: 38px;
+  		margin-top: 50 px;
+	}
+	.sub-contacto{
+		font-size: 32px;
+  		color: ghostwhite;	
+	}
+	.sub-paratyc{
+		font-size:18px ;
+  		font-weight: lighter;
+  		color: whitesmoke;
+	}
+	.opciones-formulario{
+		font-size: 16px;
+  		color: whitesmoke;
+	}
+}
+@media (max-width: 900px){
+	.menu {
+  flex-direction: row-reverse;   
+  }
+  .logo{
+    margin: auto;  
+  }
+  .navegable{    
+    flex-direction: column;
+  }
+  .relleno12 .grilla{
+  	grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "fotoboxeo boxeo"
+                         "fotocrossfit crossfit"
+                         "fotoculturista culturista";
+
+  }
+
+}	

@@ -1,0 +1,266 @@
+html
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: black; }
+
+nav {
+  font-weight: bold;
+  font-size: 20px;
+  color: white; }
+
+li {
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Alegreya Sans', sans-serif; }
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  transition-property: color background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 450ms;
+  transition-delay: 450ms;
+  background-image: linear-gradient(black, grey); }
+  a:hover {
+    color: #EC0404;
+    background-color: lightgray; }
+  a p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+
+.navegador {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .navegador .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .navegador .menu .navegable {
+      display: flex;
+      justify-content: flex-end;
+      column-gap: 7%; }
+      .navegador .menu .navegable li {
+        display: inline-flex; }
+
+.relleno11 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno11 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px;
+    margin-top: 50 px; }
+  .relleno11 h2.sub {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke; }
+  .relleno11 p.sub {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke; }
+  .relleno11 p.sub.a-disciplinas {
+    text-decoration: underline; }
+  .relleno11 p.sub.titulo-index {
+    font-size: 21px;
+    color: whitesmoke; }
+  .relleno11 p.titulo-deportistas {
+    margin-top: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold; }
+
+.relleno12 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno12 .grilla {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas: "fotoboxeo fotocrossfit fotoculturista" "boxeo crossfit culturista"; }
+    .relleno12 .grilla .grid1 {
+      grid-area: fotoboxeo; }
+    .relleno12 .grilla .grid2 {
+      grid-area: boxeo; }
+      .relleno12 .grilla .grid2 .descripcion_foto {
+        font-size: 18px;
+        font-weight: bold;
+        color: #EC0404;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-left: 0px; }
+    .relleno12 .grilla .grid3 {
+      grid-area: fotocrossfit; }
+    .relleno12 .grilla .grid4 {
+      grid-area: crossfit; }
+      .relleno12 .grilla .grid4 .descripcion_foto {
+        font-size: 18px;
+        font-weight: bold;
+        color: #EC0404;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-left: 0px; }
+    .relleno12 .grilla .grid5 {
+      grid-area: fotoculturista; }
+    .relleno12 .grilla .grid6 {
+      grid-area: culturista; }
+      .relleno12 .grilla .grid6 .descripcion_foto {
+        font-size: 18px;
+        font-weight: bold;
+        color: #EC0404;
+        font-family: 'Alegreya Sans', sans-serif;
+        padding-left: 0px; }
+
+.pie {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .pie .flex_redes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; }
+    .pie .flex_redes li {
+      font-size: 16px;
+      color: whitesmoke; }
+  .pie .cop {
+    color: #E52222;
+    font-size: 11px;
+    background-image: linear-gradient(black, grey); }
+
+.relleno21 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno21 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px;
+    margin-top: 50 px; }
+  .relleno21 p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+  .relleno21 .sub-actividades {
+    font-size: 32px;
+    color: ghostwhite; }
+  .relleno21 .actividades {
+    color: #D10202;
+    padding-left: 20px; }
+
+.relleno22 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno22 .sub-actividades {
+    font-size: 32px;
+    color: ghostwhite; }
+  .relleno22 .actividades {
+    color: #D10202;
+    padding-left: 20px; }
+  .relleno22 .sub {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke; }
+
+.relleno31 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno31 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px;
+    margin-top: 50 px; }
+  .relleno31 p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+  .relleno31 .sub-productos {
+    font-size: 32px;
+    color: ghostwhite; }
+  .relleno31 .sub {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke; }
+  .relleno31 .productos {
+    color: #D10202;
+    padding-left: 20px; }
+  .relleno31 .sub-paratyc {
+    font-size: 18px;
+    font-weight: lighter;
+    color: whitesmoke; }
+
+.relleno41 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno41 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px;
+    margin-top: 50 px; }
+  .relleno41 .sub-nosotros {
+    font-size: 32px;
+    color: ghostwhite; }
+  .relleno41 p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+  .relleno41 .nosotros {
+    color: #D10202;
+    padding-left: 20px; }
+
+.relleno51 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno51 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px;
+    margin-top: 50 px; }
+  .relleno51 .sub-contacto {
+    font-size: 32px;
+    color: ghostwhite; }
+  .relleno51 .sub-paratyc {
+    font-size: 18px;
+    font-weight: lighter;
+    color: whitesmoke; }
+  .relleno51 .opciones-formulario {
+    font-size: 16px;
+    color: whitesmoke; }
+
+@media (max-width: 900px) {
+  .menu {
+    flex-direction: row-reverse; }
+  .logo {
+    margin: auto; }
+  .navegable {
+    flex-direction: column; }
+  .relleno12 .grilla {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; } }
