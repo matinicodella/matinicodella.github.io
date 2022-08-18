@@ -1,3 +1,4 @@
+$ancho: 1200px;
 html
 *{
   padding: 0;
@@ -38,7 +39,7 @@ p{
 }
 .navegador{
 	width: 100%;
-  	max-width: 1200px;
+  	max-width: $ancho;
   	margin: auto;
   	margin-top: 1%;
 	.menu{
@@ -58,7 +59,7 @@ p{
 		
 .relleno11{
 	width: 100%;
-  	max-width: 1200px;
+  	max-width: $ancho;
   	margin: auto;
   	margin-top: 1%;
 	.titulo{
@@ -98,7 +99,7 @@ p{
 }
 .relleno12{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	
@@ -158,7 +159,7 @@ p{
 }
 .pie{	
 		width: 100%;
-  		max-width: 1200px;
+  		max-width: $ancho;
  		margin: auto;
   		margin-top: 1%;
 	.flex_redes{
@@ -182,7 +183,7 @@ p{
 }
 .relleno21{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	.titulo{
@@ -208,7 +209,7 @@ p{
 }
 .relleno22{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	.sub-actividades{
@@ -228,7 +229,7 @@ p{
 }
 .relleno31{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	.titulo{
@@ -265,7 +266,7 @@ p{
 }
 .relleno41{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	.titulo{
@@ -291,7 +292,7 @@ p{
 }
 .relleno51{
 	width: 100%;
-	max-width: 1200px;
+	max-width: $ancho;
   	margin: auto;
 	margin-top: 1%;
 	.titulo{
