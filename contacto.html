@@ -7,87 +7,91 @@
 	<!-- Link de CSS Bootstrap -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 	<!-- Link de CSS -->
-	<link rel="stylesheet" href="css/estilo.css">	
+	<link rel="stylesheet" href="sass/style.css">	
 	<!--Link de fonts-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class=" menu contenedor ">
-    	<div class="logo">
-	   	<img src="imagenes/logo.jpg" width="300" />
-        </div>
-	   	<ul class="navegable">
-	    	<li> 
-	    	 	<a href="index.html">Inicio</a>	
-	    	</li>
-	        <li>
-	          	<a href="actividades.html">Actividades</a>
-	        </li>
-	        <li>
-	            <a href="productos.html">Productos</a>
-	        </li>
-	        <li>
-	          	<a href="nosotros.html">Nosotros</a>
-	        </li>
-	        <li>
-	          	<a href="contacto.html">Contacto</a>
-	        </li>
-	    </ul>
+    <nav class="navegador">
+    	<div class=" menu">
+    		<div class="logo">
+	   			<img src="imagenes/logo.jpg" width="300" />
+        	</div>
+	   		<ul class="navegable">
+	    		<li> 
+	    	 		<a href="index.html">Inicio</a>	
+	    		</li>
+	        	<li>
+	          		<a href="actividades.html">Actividades</a>
+	        	</li>
+	        	<li>
+	            	<a href="productos.html">Productos</a>
+	        	</li>
+	        	<li>
+	          		<a href="nosotros.html">Nosotros</a>
+	        	</li>
+	        	<li>
+	          		<a href="contacto.html">Contacto</a>
+	        	</li>
+	    	</ul>
+		</div>
     </nav>
-    <div class="contenedor">
-    <h1 class="titulo">Contacto</h1>
-    <h2 class="sub-contacto">Registrate y empeza a vivir la experiencia Rambo Gym</h2>
-    <form action="gracias.html" target="_blank"> 
-   	<div>
-   	<label class="sub-paratyc">
-   	Nombre:
-    	<input class="opciones-formulario" type="text" placeholder="ingresar nombre" />
-	</label>
-	</div>
-	<div>
-	<label class="sub-paratyc">
-	Genero:	
-	<select class="opciones-formulario">
-		    <option>Masculino</option>
-		  	<option>Femenino</option>
-			<option>Otro</option>
-	</select>
-	</label> 
-	</div>
-	<div>
-	<label class="sub-paratyc">
-	Has realizado alguna tipo de actividad fisica?
-		<input type="radio" name="opcion">
-		<span>SI</span>
-		<input type="radio" name="opcion">
-		<span>NO</span>		
-	</label>
-	</div>
-    <div>
-	<label class="sub-paratyc">
-	Email:
-		<input class="opciones-formulario" type="email" placeholder="ingresar mail" />
-	</label>
-	</div>
-	<div>
-	<label class="sub-paratyc">
-	Contraseña:
-		<input class="opciones-formulario" type="password" placeholder="ingresar contraseña" />
-	</label>
-	</div>
-	<div>
-	<label class="sub-paratyc">
-	Confirmar contraseña
-		<input class="opciones-formulario" type="password"	placeholder="confirmar contraseña">
-	</label>
-	</div>
-		<input class="sub-paratyc" type="submit" />
-	</form>
+    <div class="relleno51">
+    	<h1 class="titulo">Contacto</h1>
+    	<h2 class="sub-contacto">Registrate y empeza a vivir la experiencia Rambo Gym</h2>
+    	<form action="gracias2.html" target="_blank"> 
+   			<div>
+   				<label class="sub-paratyc">
+   					Nombre:
+    				<input class="opciones-formulario" type="text" placeholder="ingresar nombre" />
+				</label>
+			</div>
+			<div>
+				<label class="sub-paratyc">
+					Genero:	
+					<select class="opciones-formulario">
+		    		<option>Masculino</option>
+		  			<option>Femenino</option>
+					<option>Otro</option>
+					</select>
+				</label> 
+			</div>
+			<div>
+				<label class="sub-paratyc">
+					Has realizado alguna tipo de actividad fisica?
+					<input type="radio" name="opcion">
+					<span>SI</span>
+					<input type="radio" name="opcion">
+					<span>NO</span>		
+				</label>
+			</div>
+    		<div>
+				<label class="sub-paratyc">
+					Email:
+					<input class="opciones-formulario" type="email" placeholder="ingresar mail" />
+				</label>
+			</div>
+			<div>
+				<label class="sub-paratyc">
+					Contraseña:
+					<input class="opciones-formulario" type="password" placeholder="ingresar contraseña" />
+				</label>
+			</div>
+			<div>
+				<label class="sub-paratyc">
+					Confirmar contraseña
+					<input class="opciones-formulario" type="password"	placeholder="confirmar contraseña">
+				</label>
+			</div>
+			<div>
+        		<input class="btn btn-light" type="submit" value="ENVIAR">
+    		</div>
+		</form>
     </div>
-   	<footer>
-    	<ul class="flex_redes contenedor">
+	<footer class="pie">
+    	<ul class="flex_redes">
 	    	<li>
 	    		<a class= "paginas-web" href="https://www.instagram.com/" target="_blank">Instagram</a>
 	    	</li>
@@ -98,9 +102,7 @@
 				<a class= "paginas-web" href="https://www.tiktok.com/" target="_blank">TikTok</a>
 			</li>
 		</ul> 
-    <div class="contenedor">
-	<span class="cop">Copyright Matias Nicodella</span>
-    </div>
+		<span class="cop">Copyright Matias Nicodella</span>
 	</footer>
  <!--Link de Javascript-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
