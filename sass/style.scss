@@ -1,4 +1,10 @@
 $ancho: 1200px;
+@mixin rellenoprop{
+		width: 100%;
+  	max-width: $ancho;
+  	margin: auto;
+  	margin-top: 1%;
+}
 html
 *{
   padding: 0;
@@ -7,9 +13,10 @@ html
   background-color: black;
 }
 nav{
+	color: white;
   font-weight: bold;
   font-size: 20px;
-  color: white;  
+   
 }
 li {
   list-style: none;
@@ -27,7 +34,7 @@ a{
   background-image: linear-gradient(black , grey);
 
   	&:hover{
-  	  	color: #EC0404;
+  	  color: #EC0404;
   		background-color: lightgray;
   }
 p{
@@ -38,10 +45,7 @@ p{
 }
 }
 .navegador{
-	width: 100%;
-  	max-width: $ancho;
-  	margin: auto;
-  	margin-top: 1%;
+		@include rellenoprop
 	.menu{
 		display: flex;
   		justify-content: space-between;
@@ -58,10 +62,7 @@ p{
 }
 		
 .relleno11{
-	width: 100%;
-  	max-width: $ancho;
-  	margin: auto;
-  	margin-top: 1%;
+		@include rellenoprop
 	.titulo{
 		padding-left: 20px;
   		color: #EC0404;
@@ -98,11 +99,7 @@ p{
 
 }
 .relleno12{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
-	
+	@include rellenoprop
 	.grilla{
 		display: grid;
     	grid-template-columns: 1fr 1fr 1fr;
@@ -158,10 +155,7 @@ p{
 
 }
 .pie{	
-		width: 100%;
-  		max-width: $ancho;
- 		margin: auto;
-  		margin-top: 1%;
+	@include rellenoprop
 	.flex_redes{
 		display: flex;
   		justify-content: space-between;
@@ -182,10 +176,7 @@ p{
 	}
 }
 .relleno21{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
+	@include rellenoprop
 	.titulo{
 		padding-left: 20px;
   		color: #EC0404;
@@ -208,10 +199,7 @@ p{
 	}
 }
 .relleno22{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
+	@include rellenoprop
 	.sub-actividades{
 		font-size: 32px;
   		color: ghostwhite;
@@ -228,10 +216,7 @@ p{
 	}
 }
 .relleno31{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
+	@include rellenoprop
 	.titulo{
 		padding-left: 20px;
   		color: #EC0404;
@@ -265,10 +250,7 @@ p{
 	}
 }
 .relleno41{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
+	@include rellenoprop
 	.titulo{
 		padding-left: 20px;
   		color: #EC0404;
@@ -291,10 +273,7 @@ p{
 	}
 }
 .relleno51{
-	width: 100%;
-	max-width: $ancho;
-  	margin: auto;
-	margin-top: 1%;
+	@include rellenoprop
 	.titulo{
 		padding-left: 20px;
   		color: #EC0404;
