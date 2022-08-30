@@ -91,7 +91,8 @@ a {
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
     column-gap: 10px;
-    grid-template-areas: "fotoboxeo fotocrossfit fotoculturista" "boxeo crossfit culturista"; }
+    grid-template-areas: "fotoboxeo fotocrossfit fotoculturista"
+ "boxeo crossfit culturista"; }
     .relleno12 .grilla .grid1 {
       grid-area: fotoboxeo; }
     .relleno12 .grilla .grid2 {
@@ -263,4 +264,7 @@ a {
   .relleno12 .grilla {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; } }
+    grid-template-areas:  "fotoboxeo boxeo"
+                          "fotocrossfit crossfit"
+                          "fotoculturista culturista"; } 
+                        }

@@ -20,7 +20,7 @@ nav{
 }
 li {
   list-style: none;
-   font-weight: bold;
+  font-weight: bold;
   font-size: 20px;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -45,40 +45,40 @@ p{
 }
 }
 .navegador{
-		@include rellenoprop
+		@include rellenoprop;
 	.menu{
-		display: flex;
+			display: flex;
   		justify-content: space-between;
   		align-items: center;
   		.navegable{
-			display: flex;
+				display: flex;
   			justify-content: flex-end;
   			column-gap: 7%;
   				li{
-  				display: inline-flex
+  					display: inline-flex
   				}
 			}
 	}	
 }
 		
 .relleno11{
-		@include rellenoprop
+		@include rellenoprop;
 	.titulo{
-		padding-left: 20px;
+			padding-left: 20px;
   		color: #EC0404;
- 		font-size: 38px;
-  		margin-top: 50 px;
+ 			font-size: 38px;
+  		margin-top: 50px;
 	}
 	h2.sub{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-size:20px ;
   		font-weight: bold;
   		color: whitesmoke; 
 	}
 	p.sub{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-size:20px ;
- 	 	font-weight: bold;
+ 	 		font-weight: bold;
   		color: whitesmoke; 
 	}
 	p.sub{
@@ -99,9 +99,9 @@ p{
 
 }
 .relleno12{
-	@include rellenoprop
+	@include rellenoprop;
 	.grilla{
-		display: grid;
+			display: grid;
     	grid-template-columns: 1fr 1fr 1fr;
    	 	grid-template-rows: 1fr 1fr;
     	row-gap: 10px;
@@ -116,7 +116,7 @@ p{
 				grid-area: boxeo;
 
 				.descripcion_foto{
-					font-size: 18px;
+						font-size: 18px;
   					font-weight:bold;
   					color: #EC0404;
   					font-family: 'Alegreya Sans', sans-serif;
@@ -130,7 +130,7 @@ p{
 				grid-area: crossfit;
 
 				.descripcion_foto{
-					font-size: 18px;
+						font-size: 18px;
   					font-weight:bold;
   					color: #EC0404;
   					font-family: 'Alegreya Sans', sans-serif;
@@ -155,76 +155,76 @@ p{
 
 }
 .pie{	
-	@include rellenoprop
+	@include rellenoprop;
 	.flex_redes{
-		display: flex;
+			display: flex;
   		justify-content: space-between;
   		margin: 0;
 		
 		li{
-		font-size: 16px;
+			font-size: 16px;
   		color: whitesmoke;
 		}
 	}
 
 	
 	.cop{
-		color: #E52222;
+			color: #E52222;
   		font-size: 11px;
   		background-image: linear-gradient(black , grey);
 
 	}
 }
 .relleno21{
-	@include rellenoprop
+	@include rellenoprop;
 	.titulo{
-		padding-left: 20px;
+			padding-left: 20px;
   		color: #EC0404;
- 		font-size: 38px;
-  		margin-top: 50 px;
+ 			font-size: 38px;
+  		margin-top: 50px;
 	}
 	p{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-weight: bold;
   		font-size: 20px;
   		color: whitesmoke;	
 	}
 	.sub-actividades{
-		font-size: 32px;
+			font-size: 32px;
   		color: ghostwhite;
 	}
 	.actividades{
-		color: #D10202;
+			color: #D10202;
   		padding-left: 20px;
 	}
 }
 .relleno22{
-	@include rellenoprop
+	@include rellenoprop;
 	.sub-actividades{
-		font-size: 32px;
+			font-size: 32px;
   		color: ghostwhite;
 	}
 	.actividades{
-		color: #D10202;
+			color: #D10202;
   		padding-left: 20px;
 	}
 	.sub{
-		padding-left: 40px;
-  		font-size:20px ;
+			padding-left: 40px;
+  		font-size:20px;
   		font-weight: bold;
   		color: whitesmoke;
 	}
 }
 .relleno31{
-	@include rellenoprop
+	@include rellenoprop;
 	.titulo{
-		padding-left: 20px;
+			padding-left: 20px;
   		color: #EC0404;
   		font-size: 38px;
   		margin-top: 50 px;
 	}
 	p{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-weight: bold;
   		font-size: 20px;
   		color: whitesmoke;
@@ -234,35 +234,35 @@ p{
   		color: ghostwhite;
 	}
 	.sub{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-size:20px ;
   		font-weight: bold;
   		color: whitesmoke;
 	}
 	.productos{
-		color: #D10202;
+			color: #D10202;
   		padding-left: 20px;
 	}
 	.sub-paratyc{
-		font-size:18px ;
+			font-size:18px ;
   		font-weight: lighter;
   		color: whitesmoke;
 	}
 }
 .relleno41{
-	@include rellenoprop
+	@include rellenoprop;
 	.titulo{
-		padding-left: 20px;
+			padding-left: 20px;
   		color: #EC0404;
   		font-size: 38px;
   		margin-top: 50 px;
 	}
 	.sub-nosotros{
-		font-size: 32px;
+			font-size: 32px;
   		color: ghostwhite;
 	}
 	p{
-		padding-left: 40px;
+			padding-left: 40px;
   		font-weight: bold;
   		font-size: 20px;
   		color: whitesmoke;
@@ -273,30 +273,30 @@ p{
 	}
 }
 .relleno51{
-	@include rellenoprop
+	@include rellenoprop;
 	.titulo{
-		padding-left: 20px;
+			padding-left: 20px;
   		color: #EC0404;
   		font-size: 38px;
   		margin-top: 50 px;
 	}
 	.sub-contacto{
-		font-size: 32px;
+			font-size: 32px;
   		color: ghostwhite;	
 	}
 	.sub-paratyc{
-		font-size:18px ;
+			font-size:18px ;
   		font-weight: lighter;
   		color: whitesmoke;
 	}
 	.opciones-formulario{
-		font-size: 16px;
+			font-size: 16px;
   		color: whitesmoke;
 	}
 }
 @media (max-width: 900px){
 	.menu {
-  flex-direction: row-reverse;   
+  	flex-direction: row-reverse;   
   }
   .logo{
     margin: auto;  
