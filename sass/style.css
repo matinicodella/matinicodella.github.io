@@ -58,7 +58,7 @@ a {
     padding-left: 20px;
     color: #EC0404;
     font-size: 38px;
-    margin-top: 50 px; }
+    margin-top: 50px; }
   .relleno11 h2.sub {
     padding-left: 40px;
     font-size: 20px;
@@ -91,8 +91,7 @@ a {
     grid-template-rows: 1fr 1fr;
     row-gap: 10px;
     column-gap: 10px;
-    grid-template-areas: "fotoboxeo fotocrossfit fotoculturista"
- "boxeo crossfit culturista"; }
+    grid-template-areas: "fotoboxeo fotocrossfit fotoculturista" "boxeo crossfit culturista"; }
     .relleno12 .grilla .grid1 {
       grid-area: fotoboxeo; }
     .relleno12 .grilla .grid2 {
@@ -150,7 +149,7 @@ a {
     padding-left: 20px;
     color: #EC0404;
     font-size: 38px;
-    margin-top: 50 px; }
+    margin-top: 50px; }
   .relleno21 p {
     padding-left: 40px;
     font-weight: bold;
@@ -254,6 +253,36 @@ a {
     font-size: 16px;
     color: whitesmoke; }
 
+.relleno61 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno61 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px; }
+  .relleno61 p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+
+.relleno71 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 1%; }
+  .relleno71 .titulo {
+    padding-left: 20px;
+    color: #EC0404;
+    font-size: 38px; }
+  .relleno71 p {
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: whitesmoke; }
+
 @media (max-width: 900px) {
   .menu {
     flex-direction: row-reverse; }
@@ -264,7 +293,4 @@ a {
   .relleno12 .grilla {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:  "fotoboxeo boxeo"
-                          "fotocrossfit crossfit"
-                          "fotoculturista culturista"; } 
-                        }
+    grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; } }
