@@ -3,7 +3,13 @@ $ancho: 1200px;
 		width: 100%;
   	max-width: $ancho;
   	margin: auto;
-  	margin-top: 1%;
+  	margin-top: 1%;  
+}
+@mixin titulos{
+		padding-left: 20px;
+  	color: #EC0404;
+ 		font-size: 38px;
+  	margin-top: 50px;
 }
 html
 *{
@@ -64,10 +70,7 @@ p{
 .relleno11{
 		@include rellenoprop;
 	.titulo{
-			padding-left: 20px;
-  		color: #EC0404;
- 			font-size: 38px;
-  		margin-top: 50px;
+			@include titulos;
 	}
 	h2.sub{
 			padding-left: 40px;
@@ -178,10 +181,7 @@ p{
 .relleno21{
 	@include rellenoprop;
 	.titulo{
-			padding-left: 20px;
-  		color: #EC0404;
- 			font-size: 38px;
-  		margin-top: 50px;
+			@include titulos;			
 	}
 	p{
 			padding-left: 40px;
@@ -218,10 +218,7 @@ p{
 .relleno31{
 	@include rellenoprop;
 	.titulo{
-			padding-left: 20px;
-  		color: #EC0404;
-  		font-size: 38px;
-  		margin-top: 50 px;
+			@include titulos;
 	}
 	p{
 			padding-left: 40px;
@@ -252,10 +249,7 @@ p{
 .relleno41{
 	@include rellenoprop;
 	.titulo{
-			padding-left: 20px;
-  		color: #EC0404;
-  		font-size: 38px;
-  		margin-top: 50 px;
+			@include titulos;
 	}
 	.sub-nosotros{
 			font-size: 32px;
@@ -275,10 +269,7 @@ p{
 .relleno51{
 	@include rellenoprop;
 	.titulo{
-			padding-left: 20px;
-  		color: #EC0404;
-  		font-size: 38px;
-  		margin-top: 50 px;
+			@include titulos;
 	}
 	.sub-contacto{
 			font-size: 32px;

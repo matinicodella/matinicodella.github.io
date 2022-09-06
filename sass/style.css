@@ -188,7 +188,7 @@ a {
     padding-left: 20px;
     color: #EC0404;
     font-size: 38px;
-    margin-top: 50 px; }
+    margin-top: 50px; }
   .relleno31 p {
     padding-left: 40px;
     font-weight: bold;
@@ -219,7 +219,7 @@ a {
     padding-left: 20px;
     color: #EC0404;
     font-size: 38px;
-    margin-top: 50 px; }
+    margin-top: 50px; }
   .relleno41 .sub-nosotros {
     font-size: 32px;
     color: ghostwhite; }
@@ -241,7 +241,7 @@ a {
     padding-left: 20px;
     color: #EC0404;
     font-size: 38px;
-    margin-top: 50 px; }
+    margin-top: 50px; }
   .relleno51 .sub-contacto {
     font-size: 32px;
     color: ghostwhite; }
@@ -294,3 +294,5 @@ a {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; } }
+
+/*# sourceMappingURL=style.css.map */
