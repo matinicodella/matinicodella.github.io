@@ -61,13 +61,13 @@ a {
     margin-top: 50px; }
   .relleno11 h2.sub {
     padding-left: 40px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     color: whitesmoke; }
   .relleno11 p.sub {
     padding-left: 40px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     color: whitesmoke; }
   .relleno11 p.sub.a-disciplinas {
     text-decoration: underline; }
@@ -94,6 +94,10 @@ a {
     grid-template-areas: "fotoboxeo fotocrossfit fotoculturista" "boxeo crossfit culturista"; }
     .relleno12 .grilla .grid1 {
       grid-area: fotoboxeo; }
+      .relleno12 .grilla .grid1 .imagen-zoom {
+        transition: transform 1s; }
+      .relleno12 .grilla .grid1 .imagen-zoom:hover {
+        transform: scale(2, 2); }
     .relleno12 .grilla .grid2 {
       grid-area: boxeo; }
       .relleno12 .grilla .grid2 .descripcion_foto {
@@ -104,6 +108,10 @@ a {
         padding-left: 0px; }
     .relleno12 .grilla .grid3 {
       grid-area: fotocrossfit; }
+      .relleno12 .grilla .grid3 .imagen-zoom {
+        transition: transform 1s; }
+      .relleno12 .grilla .grid3 .imagen-zoom:hover {
+        transform: scale(2, 2); }
     .relleno12 .grilla .grid4 {
       grid-area: crossfit; }
       .relleno12 .grilla .grid4 .descripcion_foto {
@@ -114,6 +122,10 @@ a {
         padding-left: 0px; }
     .relleno12 .grilla .grid5 {
       grid-area: fotoculturista; }
+      .relleno12 .grilla .grid5 .imagen-zoom {
+        transition: transform 1s; }
+      .relleno12 .grilla .grid5 .imagen-zoom:hover {
+        transform: scale(2, 2); }
     .relleno12 .grilla .grid6 {
       grid-area: culturista; }
       .relleno12 .grilla .grid6 .descripcion_foto {
@@ -131,7 +143,7 @@ a {
   .pie .flex_redes {
     display: flex;
     justify-content: space-between;
-    margin: 0; }
+    margin: 30px; }
     .pie .flex_redes li {
       font-size: 16px;
       color: whitesmoke; }
@@ -175,8 +187,8 @@ a {
     padding-left: 20px; }
   .relleno22 .sub {
     padding-left: 40px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     color: whitesmoke; }
 
 .relleno31 {
@@ -199,8 +211,8 @@ a {
     color: ghostwhite; }
   .relleno31 .sub {
     padding-left: 40px;
-    font-size: 20px;
     font-weight: bold;
+    font-size: 20px;
     color: whitesmoke; }
   .relleno31 .productos {
     color: #D10202;
@@ -231,6 +243,10 @@ a {
   .relleno41 .nosotros {
     color: #D10202;
     padding-left: 20px; }
+  .relleno41 ul li .imagen-zoom {
+    transition: transform 1s; }
+  .relleno41 ul li .imagen-zoom:hover {
+    transform: scale(2, 2); }
 
 .relleno51 {
   width: 100%;
@@ -293,6 +309,20 @@ a {
   .relleno12 .grilla {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; } }
-
-/*# sourceMappingURL=style.css.map */
+    grid-template-areas: "fotoboxeo boxeo" "fotocrossfit crossfit" "fotoculturista culturista"; }
+    .relleno12 .grilla .grid1 .imagen-zoom {
+      transition: none; }
+    .relleno12 .grilla .grid1 .imagen-zoom:hover {
+      transform: none; }
+    .relleno12 .grilla .grid3 .imagen-zoom {
+      transition: none; }
+    .relleno12 .grilla .grid3 .imagen-zoom:hover {
+      transform: none; }
+    .relleno12 .grilla .grid5 .imagen-zoom {
+      transition: none; }
+    .relleno12 .grilla .grid5 .imagen-zoom:hover {
+      transform: none; }
+  .relleno41 ul li .imagen-zoom {
+    transition: none; }
+  .relleno41 ul li .imagen-zoom:hover {
+    transform: none; } }

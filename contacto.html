@@ -16,7 +16,7 @@
     <nav class="navegador">
     	<div class=" menu">
     		<div class="logo">
-	   			<img src="imagenes/logo.jpg" alt="logo" title="logo" width="300"/>
+	   			<a href="index.html"><img src="imagenes/logo.jpg" alt="logo" title="logo" width="300"/></a>
         	</div>
 	   		<ul class="navegable">
 	    		<li> 
@@ -44,48 +44,48 @@
    			<div>
    				<label class="sub-paratyc">
    					Nombre:
-    				<input class="opciones-formulario" type="text" placeholder="ingresar nombre" />
+    				<input class="opciones-formulario" type="text" placeholder="ingresar nombre"required/>
 				</label>
 			</div>
 			<div>
 				<label class="sub-paratyc">
 					Genero:	
-					<select class="opciones-formulario">
-		    		<option>Masculino</option>
-		  			<option>Femenino</option>
-					<option>Otro</option>
+					<select name="genero" class="opciones-formulario">
+		    		<option value="masculino">Masculino</option>
+		  			<option value="femenino">Femenino</option>
+					<option value="otros">Otro</option>
 					</select>
 				</label> 
 			</div>
 			<div>
 				<label class="sub-paratyc">
 					Has realizado alguna tipo de actividad fisica?
-					<input type="radio" name="opcion">
+					<input type="radio" name="actividad" value="si"/>
 					<span>SI</span>
-					<input type="radio" name="opcion">
+					<input type="radio" name="actividad" value="no"/>
 					<span>NO</span>		
 				</label>
 			</div>
     		<div>
 				<label class="sub-paratyc">
 					Email:
-					<input class="opciones-formulario" type="email" placeholder="ingresar mail" />
+					<input class="opciones-formulario" type="email" placeholder="ingresar mail"required/>
 				</label>
 			</div>
 			<div>
 				<label class="sub-paratyc">
 					Contraseña:
-					<input class="opciones-formulario" type="password" placeholder="ingresar contraseña" />
+					<input class="opciones-formulario" type="password" placeholder="ingresar contraseña"required/>
 				</label>
 			</div>
 			<div>
 				<label class="sub-paratyc">
 					Confirmar contraseña
-					<input class="opciones-formulario" type="password"	placeholder="confirmar contraseña">
+					<input class="opciones-formulario" type="password"	placeholder="confirmar contraseña"required/>
 				</label>
 			</div>
 			<div>
-        		<input class="btn btn-light" type="submit" value="ENVIAR">
+        		<input class="btn btn-light" type="submit" value="ENVIAR"/>
     		</div>
 		</form>
     </main>
